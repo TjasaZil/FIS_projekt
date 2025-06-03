@@ -8,12 +8,12 @@ public class palindrom {
         String beseda = s.nextLine();
         String obrnjena = "";
         for(int i = beseda.length()-1; i >= 0; i--){
-            obrnjena = obrnjena + beseda.charAt(i);
+            obrnjena +=  beseda.charAt(i);
         }
-if(beseda == obrnjena){
+if(beseda.equals(obrnjena)){
     System.out.println("Beseda je palindrom");
 } else  System.out.println("Beseda ni palindrom");
 
-        s.close();
+s.close();
     }
 }

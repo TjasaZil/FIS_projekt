@@ -9,7 +9,7 @@ public class ObrneBesedo {
         String beseda = s.nextLine();
         String obrnjena = "";
         for(int i = beseda.length()-1; i >= 0; i--){
-          obrnjena = obrnjena + beseda.charAt(i);
+          obrnjena +=  beseda.charAt(i);
         }
 
         System.out.println("Obrnjena beseda je: " + obrnjena);
